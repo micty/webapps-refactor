@@ -1,0 +1,18 @@
+﻿
+{
+    "name": "webapps-refactor",
+    "version": "0.1.0",
+    "repository": {},
+    "description": "针对页面重构的 grunt 工具",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-less": "0.11.0",
+        "grunt-contrib-watch": "0.6.1"  
+    }, 
+
+    "engines": {
+        "node": ">=0.8.0"
+    }
+
+}

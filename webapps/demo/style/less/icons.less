@@ -1,0 +1,23 @@
+﻿
+
+
+
+/*所有的图标 以及base64放在此处*/
+
+// 图片名称约定： default-icon-图标名
+
+.set-icon(@path) {
+    background-image: data-uri(@path);
+    background-repeat: no-repeat;
+}
+
+
+
+/*移动审批平台图标*/
+.default-icon-todo {
+    .set-icon('../img/todo.png')
+}
+
+.default-icon-done {
+    .set-icon('../img/done.png')
+}
