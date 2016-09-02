@@ -39,7 +39,7 @@
 对于 `webapps` 目录下的每个 app，其下的 less 文件经过编译后输出的 css 文件位于 app 目录中的 `style/css` 目录，
 并且生成的 css 文件名会带有 less 文件所在的目录作为前缀。
 例如:
- `webapps/demo/home/view.less`  ----->  `webapps/demo/style/css/home.view.css`
-  `webapps/demo/user/list/panel.less`  ----->  `webapps/demo/style/css/user.list.panel.css`
+- `webapps/demo/home/view.less`  ----->  `webapps/demo/style/css/home.view.css`
+- `webapps/demo/user/list/panel.less`  ----->  `webapps/demo/style/css/user.list.panel.css`
 
 这样命名可以确保多个短名称一样的 less 生成的 css 文件到 `style/css` 不会引起冲突。
